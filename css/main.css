@@ -531,3 +531,101 @@ footer
 	
 
 }
+
+/*=================================================
+||				13. Events Widget
+==================================================*/
+
+
+.events-widget {
+	padding-top: 15px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.filters {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.filter-btn {
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	flex: 1;
+	margin: 0 5px;
+	text-align: center;
+}
+
+.filter-btn:hover {
+	background-color: #eee;
+}
+
+.event {
+	display: flex;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.event-date {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	flex-shrink: 0;
+}
+
+.event-date .month {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.event-date .day {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.event-details {
+	padding: 10px;
+	flex-grow: 1;
+}
+
+.event-type {
+	color: red;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.event-title {
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+.event-speaker {
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.event-time-location {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	color: #777;
+}
+
+.event-time-location span {
+	display: flex;
+	align-items: center;
+}
+
+.event-time-location span::before {
+	margin-right: 5px;
+}
